@@ -1,0 +1,53 @@
+{
+    "connection": {
+        "url": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": ""
+        
+    },
+    "bd": {
+        "sgbd": "MySql",
+        "dataBaseName": "MeuBD",
+        "tables": [
+            {
+                "name": "usuario",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "varchar"
+                    },
+                    {
+                        "name": "nome",
+                        "type": "varchar"
+                    },
+                    {
+                        "name": "idade",
+                        "type": "int"
+                    },
+                    {
+                        "name": "sexo",
+                        "type": "caracter"
+                    },
+                    {
+                        "name": "cadastrado",
+                        "type": "boolean"
+                    }
+                ]
+            },
+            {
+                "name": "marca",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "varchar"
+                    },
+                    {
+                        "name": "nome",
+                        "type": "varchar"
+                    }
+                ]
+            }
+        ]
+    }
+}

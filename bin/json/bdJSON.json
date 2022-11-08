@@ -1,0 +1,12 @@
+{
+    "CONNECTION": {
+        "URL": "localhost",
+        "PORT": 3306,
+        "USER": "root",
+        "PASSWORD": "",
+        "SGBD": "MySql"
+    },
+    "BD": {
+        "DATABASENAME": "MeuBD"
+    }
+}
