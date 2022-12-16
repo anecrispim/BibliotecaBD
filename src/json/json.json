@@ -1,0 +1,48 @@
+{
+    "connection": {
+        "url": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": ""
+    },
+    "bd": {
+        "sgbd": "MySql",
+        "dataBaseName": "Teste",
+        "tables": [
+            {
+                "name": "Tabela1",
+                "columns": [
+                    {
+                        "name": "Coluna1Tab1",
+                        "type": "INT"
+                    },
+                    {
+                        "name": "Coluna2Tab1",
+                        "type": "INT"
+                    },
+                    {
+                        "name": "Coluna3Tab1",
+                        "type": "INT"
+                    }
+                ]
+            },
+            {
+                "name": "Tabela2",
+                "columns": [
+                    {
+                        "name": "Coluna1Tab2",
+                        "type": "INT"
+                    },
+                    {
+                        "name": "Coluna2Tab2",
+                        "type": "INT"
+                    },
+                    {
+                        "name": "Coluna3Tab2",
+                        "type": "INT"
+                    }
+                ]
+            }
+        ]
+    }
+}
