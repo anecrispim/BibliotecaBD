@@ -6,7 +6,7 @@
         "password": ""
     },
     "bd": {
-        "sgbd": "MySql",
+        "sgbd": "Mysql",
         "dataBaseName": "Teste",
         "tables": [
             {
@@ -18,11 +18,11 @@
                     },
                     {
                         "name": "Coluna2Tab1",
-                        "type": "INT"
+                        "type": "VARCHAR(45)"
                     },
                     {
                         "name": "Coluna3Tab1",
-                        "type": "INT"
+                        "type": "VARCHAR(45)"
                     }
                 ]
             },
@@ -35,7 +35,7 @@
                     },
                     {
                         "name": "Coluna2Tab2",
-                        "type": "INT"
+                        "type": "VARCHAR(45)"
                     },
                     {
                         "name": "Coluna3Tab2",
